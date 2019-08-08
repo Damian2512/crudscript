@@ -21,7 +21,7 @@ include_once "layout_header.php";
 $stmt = $product->readAll($from_record_num, $records_per_page);
 
 // specify the page where paging is used
-$page_url = "index.html?";
+$page_url = "index.php?";
 
 // count total rows - used for pagination
 $total_rows=$product->countAll();
